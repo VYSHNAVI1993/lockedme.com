@@ -151,7 +151,7 @@ public static void userInterfaces() {
 
 public static void addFile() {
 	
-	System.out.println(" Enter existing directory path with new file name\n Example: F:\\temp\\vysh.txt \n");
+	System.out.println(" Enter existing directory path with new file name\n Example: E:\\temp\\vysh.txt \n");
 	Path path = Paths.get(sc.next());
 	List<String>list = new ArrayList<>();
 	try {
@@ -170,7 +170,7 @@ public static void addFile() {
 
 public static void deleteFile() {
 	
-	System.out.println(" Enter file to be deleted with absolute path \n");
+	System.out.println(" Enter file to be deleted with absolute path \n Example: E:\\\\temp\\\\vysh.txt \\n");
 	Path path = Paths.get(sc.next());
 	
 	try {
